@@ -1,5 +1,8 @@
 ### Run compile ###
-`$ javac -sourcepath ./src -d build/classes -cp ./libs/lanterna-3.0.4.jar:./libs/commons-lang3-3.11.jar src/com.home/another_classes/Third.java src/com.home/another_classes/Second.java  src/com.home/Main.java`
+`$ ant compile`
 ### Run program ###
-`$ java -cp build/classes/:./libs/lanterna-3.0.4.jar:./libs/commons-lang3-3.11.jar:. com.home.Main`
+`$ ant run`
 ### Run jar ###
+`$ ant jar`
+### Run clean ###
+`$ ant clean`
