@@ -1,2 +1,2 @@
-Main-class: src/com/home/Main
+Main-class: com/home/Main
 Class-path: ../../libs/commons-lang3-3.11.jar ../../libs/lanterna-3.0.4.jar
