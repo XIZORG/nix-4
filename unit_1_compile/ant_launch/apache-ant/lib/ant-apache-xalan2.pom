@@ -112,7 +112,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/m
     </resources>
     <testResources>
       <testResource>
-        <directory>../../../../src/etc/testcases</directory>
+        <directory>../../../../unit_2_algorithmic_tasks/etc/testcases</directory>
         <includes>
           <include>taskdefs/optional/xalan*</include>
           <include>taskdefs/optional/xsltliaison*</include>
@@ -120,8 +120,8 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/m
         <filtering>true</filtering>
       </testResource>
     </testResources>
-    <sourceDirectory>../../../../src/main</sourceDirectory>
-    <testSourceDirectory>../../../../src/tests/junit</testSourceDirectory>
+    <sourceDirectory>../../../../unit_2_algorithmic_tasks/main</sourceDirectory>
+    <testSourceDirectory>../../../../unit_2_algorithmic_tasks/tests/junit</testSourceDirectory>
     <outputDirectory>../../../../target/${project.artifactId}/classes</outputDirectory>
     <testOutputDirectory>../../../../target/${project.artifactId}/testcases</testOutputDirectory>
     <directory>../../../../target/${project.artifactId}</directory>

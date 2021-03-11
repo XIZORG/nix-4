@@ -72,9 +72,9 @@
         </includes>
       </resource>
     </resources>
-    <sourceDirectory>../../../../src/main</sourceDirectory>
+    <sourceDirectory>../../../../unit_2_algorithmic_tasks/main</sourceDirectory>
     <!-- tests depend on Ant (Os) -->
-    <testSourceDirectory>../../../../src/testcases</testSourceDirectory>
+    <testSourceDirectory>../../../../unit_2_algorithmic_tasks/testcases</testSourceDirectory>
     <outputDirectory>../../../../target/${project.artifactId}/classes</outputDirectory>
     <testOutputDirectory>../../../../target/${project.artifactId}/testcases</testOutputDirectory>
     <directory>../../../../target/${project.artifactId}</directory>

@@ -93,7 +93,7 @@
         </includes>
       </resource>
     </resources>
-    <sourceDirectory>../../../../src/tests/junit</sourceDirectory>
+    <sourceDirectory>../../../../unit_2_algorithmic_tasks/tests/junit</sourceDirectory>
     <outputDirectory>../../../../target/${project.artifactId}/classes</outputDirectory>
     <directory>../../../../target/${project.artifactId}</directory>
   </build>
