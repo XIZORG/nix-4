@@ -3,7 +3,7 @@ package SecondTask;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.HashMap;
+import java.util.TreeMap;
 import java.util.Map;
 
 public class Main {
@@ -21,7 +21,7 @@ public class Main {
         }
     }
     public static Map<Character, Integer> charInStr (String inputStr) {
-        Map<Character, Integer> chars = new HashMap<Character, Integer>();
+        Map<Character, Integer> chars = new TreeMap<Character, Integer>();
         for (int i = 0; i < inputStr.length(); i++) {
             char c = inputStr.charAt(i);
             if (((c >= 'a')&&(c <= 'z')) || ((c >= 'A')&&(c <= 'Z')) ||
